@@ -39,6 +39,7 @@ public class Main {
                     s * (s - side1) * (s - side2) * (s - side3),
                     0.5);
         System.out.println("The area of the triangle is " + area);
+        System.out.println("That's all folks");
         
     } 
 }
