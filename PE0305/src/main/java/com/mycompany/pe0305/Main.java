@@ -17,7 +17,7 @@ public class Main {
         int c = (int)(Math.random() * 10);
         System.out.printf("What is the sum of %d %d %d?", a, b, c);
         int answer = input.nextInt();
-        
+        System.out.println(answer == (a + b + c));
         
     }
 }
